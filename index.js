@@ -43,7 +43,7 @@ const initDataTable = async () => {
 
 const listUsers = async () => {
     try {
-        const response = await fetch("http://127.0.0.1:5000/api/alumnos");
+        const response = await fetch("https://orca-app-8echq.ondigitalocean.app/api/alumnos");
 
         const users = await response.json();
         console.log(users);
